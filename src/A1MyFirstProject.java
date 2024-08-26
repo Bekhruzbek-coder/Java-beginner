@@ -1,4 +1,4 @@
-public class myFirstProject
+public class A1MyFirstProject
 {
     public static void main(String[] args)
     {
