@@ -1,7 +1,6 @@
 package datatypes;
 
-public class DataTypesPrimitivesCoding
-{
+public class DataTypesPrimitivesConversion {
 
     public static void main(String[] args) {
         byte numberOfSeats = 5;
@@ -45,5 +44,15 @@ public class DataTypesPrimitivesCoding
         System.out.println("Number of previous owners: " + numberOfVehicleOwners);
         System.out.println("Number of doors: " + numberOfDoors);
         System.out.println("Number of seats: " + numberOfSeats);
+
+        System.out.println("Conversion");
+        short nuwNumberOfSeats = numberOfSeats;
+        System.out.println("The values of new number of seats: " + nuwNumberOfSeats);
+        double newFuelConsumptionCombined = fuelConsumptionCombined;
+        System.out.println("The new value of combined fuel consumption: " + newFuelConsumptionCombined + "l/100km");
+
+        byte newPower = (byte) power;
+        System.out.println("The value of the new power: " + newPower + "kW");
+
     }
 }
