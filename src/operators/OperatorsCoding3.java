@@ -58,10 +58,5 @@ public class OperatorsCoding3
         String damagedText = isDamaged? "The car is damaged" : "The car isn't damaged";
         System.out.println(damagedText);
         System.out.println();
-
-        String worthSeeingText = !isDamaged || price <= 20000 ? "It is worth seeing the car" : "It isn't worth seeing the Car";
-        System.out.println(worthSeeingText);
-        String worthRepairingText = isDamaged && price <= 10000 ? "It is worth repairing the car" : "It isn't worth repairing the Car";
-        System.out.println(worthRepairingText);
     }
 }
