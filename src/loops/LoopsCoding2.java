@@ -2,6 +2,7 @@ package loops;
 
 public class LoopsCoding2
 {
+    public static int n = 0;
     public static void main(String[] args)
     {
         int i = 1;
@@ -37,8 +38,10 @@ public class LoopsCoding2
             for (int l = 1; l <= 2 ; l++)
             {
                 System.out.println("k=" + k + " l=" + l + " BEING RIGHT SUCKS.");
+                n++;
+
             }
         }
-
+        System.out.println("Printing times: " + n );
     }
 }
