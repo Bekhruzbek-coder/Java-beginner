@@ -41,7 +41,6 @@ public class OperatorsCoding2
 
         int priceOneDollarDecrease = --price;
         System.out.println("Price after 1 dollar price decrease: $" + priceOneDollarDecrease);
-
         System.out.println("This car is damaged: " + !isDamaged);
         System.out.println();
 
