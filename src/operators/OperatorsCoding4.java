@@ -59,9 +59,9 @@ public class OperatorsCoding4
         System.out.println(damagedText);
         System.out.println();
 
-        String worthSeeingText = !isDamaged || price <= 20000 ? "It is worth seeing the car" : "It isn't worth seeing the Car";
+        String worthSeeingText = !isDamaged || price <= 20000 ? "It's worth seeing the car" : "It isn't worth seeing the car";
         System.out.println(worthSeeingText);
-        String worthRepairingText = isDamaged && price <= 10000 ? "It is worth repairing the car" : "It isn't worth repairing the Car";
-        System.out.println(worthRepairingText);
+        String worhtRepairingText = isDamaged && price <= 10000 ? "It's worth repairing the car" : "It isn't worth repairing the car";
+        System.out.println(worhtRepairingText);
     }
 }
