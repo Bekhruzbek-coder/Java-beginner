@@ -47,16 +47,17 @@ public class OperatorsCoding3
 
 
         System.out.println("Car's price equals the money in the bank: " + (price == moneyIntTheBank));
-        System.out.println("Car's price doesn't equals the money in the bank: " + (price != moneyIntTheBank));
-        System.out.println("Car's price greater than the money in the bank: " + (price > moneyIntTheBank));
-        System.out.println("Car's price greater than the money in the bank: " + (price > moneyIntTheBank));
-        System.out.println("Car's price lesser than the money in the bank: " + (price < moneyIntTheBank));
-        System.out.println("Car's price greater than or equals the money in the bank: " + (price >= moneyIntTheBank));
-        System.out.println("Car's price lesser than or equals the money in the bank: " + (price <= moneyIntTheBank));
-        System.out.println("The carModel variable's datatype is a String: " + (carModel instanceof String));
+        System.out.println("Car's price doesn't equal the money in the bank: " + (price != moneyIntTheBank));
+        System.out.println("Car's price is greater than the money in the bank: " + (price > moneyIntTheBank));
+        System.out.println("Car's price is lesser than the money in the bank: " + (price < moneyIntTheBank));
+        System.out.println("Car's price is greater than or equals the money in the bank: " + (price >= moneyIntTheBank));
+        System.out.println("Car's price is lesser than or equals the money in the bank: " + (price <= moneyIntTheBank));
+        System.out.println("The carModel variable's datatype is String: " +(carModel instanceof String));
+        System.out.println();
 
-        String damagedText = isDamaged? "The car is damaged" : "The car isn't damaged";
+        String damagedText = isDamaged ? "The car is Damaged" : "The car isn't damaged";
         System.out.println(damagedText);
         System.out.println();
+
     }
 }
