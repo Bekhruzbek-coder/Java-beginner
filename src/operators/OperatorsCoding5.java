@@ -74,5 +74,6 @@ public class OperatorsCoding5
         System.out.println("Price divided: $" + price);
         price %= 10000;
         System.out.println("Price remained: $" + price);
+
     }
 }
